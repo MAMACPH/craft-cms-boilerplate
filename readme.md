@@ -17,5 +17,5 @@ $ npm run dev # dev server that compiles scss and js with hot reloading
 
 ``` bash
 $ npm install
-$ npm run buikd # Compiles, minifies and autoprefixes scss into a seperate css-file and next-gen js
+$ npm run build # Compiles, minifies and autoprefixes scss into a seperate css-file and next-gen js
 ```
