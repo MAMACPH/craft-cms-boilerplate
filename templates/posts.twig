@@ -1,0 +1,8 @@
+{% set entry = craft.entries.section( 'indlaeg' ).one() %}
+{% set pageContent = { title : entry.title, text : entry.tekst } %}
+
+{% include 'includes/partials/header.twig' with pageContent %}
+
+{% include 'includes/sections/text.twig' with pageContent %}
+
+{% include 'includes/partials/footer.twig' %}

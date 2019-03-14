@@ -1,0 +1,293 @@
+dateModified: 1552380677
+email:
+  fromEmail: mrn@mamacph.dk
+  fromName: 'Craft test'
+  transportType: craft\mail\transportadapters\Sendmail
+fieldGroups:
+  62821319-72b9-4aac-b76d-ff95f9880ebe:
+    name: Content
+  e6666dec-7dcf-48d5-8578-fd00088d2ef1:
+    name: Common
+  fb1642b6-744f-46ee-b5ff-f8832d2e9150:
+    name: Sektioner
+fields:
+  00c0812c-1bc5-4e9d-b707-b341f15b40ea:
+    contentColumnType: string
+    fieldGroup: fb1642b6-744f-46ee-b5ff-f8832d2e9150
+    handle: sektioner
+    instructions: fdfdf
+    name: Sektioner
+    searchable: true
+    settings:
+      contentTable: '{{%matrixcontent_sektioner}}'
+      localizeBlocks: false
+      maxBlocks: ''
+      minBlocks: '1'
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Matrix
+  6c6259bb-d4e1-4863-9503-bb55917223ed:
+    contentColumnType: text
+    fieldGroup: 62821319-72b9-4aac-b76d-ff95f9880ebe
+    handle: tekst
+    instructions: ''
+    name: Tekst
+    searchable: true
+    settings:
+      charLimit: ''
+      code: ''
+      columnType: text
+      initialRows: '4'
+      multiline: '1'
+      placeholder: ''
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+matrixBlockTypes:
+  3cf6b189-fd37-4c28-bd7b-1a09c91edad7:
+    field: 00c0812c-1bc5-4e9d-b707-b341f15b40ea
+    fieldLayouts:
+      711ba6e8-dcf8-49bd-a5a8-1e2be39ffed5:
+        tabs:
+          -
+            fields:
+              bd8fa06a-a552-4b9d-a64a-842e7cc5a7f2:
+                required: false
+                sortOrder: 1
+            name: Content
+            sortOrder: 1
+    fields:
+      bd8fa06a-a552-4b9d-a64a-842e7cc5a7f2:
+        contentColumnType: integer(10)
+        fieldGroup: null
+        handle: tal
+        instructions: ''
+        name: tal
+        searchable: true
+        settings:
+          decimals: 0
+          defaultValue: null
+          max: null
+          min: '0'
+          size: null
+        translationKeyFormat: null
+        translationMethod: none
+        type: craft\fields\Number
+    handle: testen
+    name: testen
+    sortOrder: 3
+  4e9d94c9-7f15-4f43-987c-8d7734164059:
+    field: 00c0812c-1bc5-4e9d-b707-b341f15b40ea
+    fieldLayouts:
+      b5bf9062-600b-45c0-9432-ffbafdd4bc63:
+        tabs:
+          -
+            fields:
+              1a382ffa-5f20-4ff7-9df4-6f94f354352d:
+                required: false
+                sortOrder: 1
+              cbffa2e2-1510-4ebb-b672-02f0e73f719f:
+                required: false
+                sortOrder: 2
+            name: Content
+            sortOrder: 1
+    fields:
+      1a382ffa-5f20-4ff7-9df4-6f94f354352d:
+        contentColumnType: text
+        fieldGroup: null
+        handle: overskrift
+        instructions: ''
+        name: Overskrift
+        searchable: true
+        settings:
+          charLimit: ''
+          code: ''
+          columnType: text
+          initialRows: '4'
+          multiline: '1'
+          placeholder: ''
+        translationKeyFormat: null
+        translationMethod: none
+        type: craft\fields\PlainText
+      cbffa2e2-1510-4ebb-b672-02f0e73f719f:
+        contentColumnType: string
+        fieldGroup: null
+        handle: link2
+        instructions: ''
+        name: Link
+        searchable: true
+        settings:
+          placeholder: ''
+        translationKeyFormat: null
+        translationMethod: none
+        type: craft\fields\Url
+    handle: header
+    name: Header
+    sortOrder: 1
+  e7df7399-f5e8-41d2-bc15-13650705c8ef:
+    field: 00c0812c-1bc5-4e9d-b707-b341f15b40ea
+    fieldLayouts:
+      c7b0a084-93a0-4df1-b611-fbd33d50af7e:
+        tabs:
+          -
+            fields:
+              9c3e75d8-339e-49a0-a37f-29e9b8ba7c4d:
+                required: false
+                sortOrder: 1
+              b56bf795-c2d8-4c42-8005-6c0fbafef952:
+                required: false
+                sortOrder: 2
+            name: Content
+            sortOrder: 1
+    fields:
+      9c3e75d8-339e-49a0-a37f-29e9b8ba7c4d:
+        contentColumnType: text
+        fieldGroup: null
+        handle: overskrift
+        instructions: ''
+        name: Overskrift
+        searchable: true
+        settings:
+          charLimit: ''
+          code: ''
+          columnType: text
+          initialRows: '4'
+          multiline: ''
+          placeholder: ''
+        translationKeyFormat: null
+        translationMethod: none
+        type: craft\fields\PlainText
+      b56bf795-c2d8-4c42-8005-6c0fbafef952:
+        contentColumnType: string
+        fieldGroup: null
+        handle: link2
+        instructions: ''
+        name: Link
+        searchable: true
+        settings:
+          placeholder: ''
+        translationKeyFormat: null
+        translationMethod: none
+        type: craft\fields\Url
+    handle: cta
+    name: cta
+    sortOrder: 2
+sections:
+  4013a702-e7ee-4b83-80dc-b9d9c30daaa9:
+    enableVersioning: true
+    entryTypes:
+      7a687599-b3b9-462e-b934-609439377df6:
+        fieldLayouts:
+          7cd76277-1ffd-4cfe-a7d1-f9bf14975cc2:
+            tabs:
+              -
+                fields:
+                  6c6259bb-d4e1-4863-9503-bb55917223ed:
+                    required: '0'
+                    sortOrder: '1'
+                name: Content
+                sortOrder: '1'
+        handle: forside
+        hasTitleField: '0'
+        name: Forside
+        sortOrder: 1
+        titleFormat: '{section.name|raw}'
+        titleLabel: ''
+    handle: forside
+    name: Forside
+    propagateEntries: true
+    siteSettings:
+      16e863b7-d327-40e4-bf32-c2e9f6965a86:
+        enabledByDefault: true
+        hasUrls: true
+        template: index
+        uriFormat: __home__
+    type: single
+  afd01bfe-65f7-43b5-b1ed-e391c039aad7:
+    enableVersioning: true
+    entryTypes:
+      6e7c19b8-815a-4d20-8d0b-59fdfa6c1a10:
+        fieldLayouts:
+          16cbbdb6-1dfb-4bb4-9561-91b94c259cbe:
+            tabs:
+              -
+                fields:
+                  00c0812c-1bc5-4e9d-b707-b341f15b40ea:
+                    required: false
+                    sortOrder: 2
+                  6c6259bb-d4e1-4863-9503-bb55917223ed:
+                    required: false
+                    sortOrder: 1
+                name: Content
+                sortOrder: 1
+        handle: indlaeg
+        hasTitleField: true
+        name: indlæg
+        sortOrder: 1
+        titleFormat: ''
+        titleLabel: Titel
+    handle: indlaeg
+    name: indlæg
+    propagateEntries: true
+    siteSettings:
+      16e863b7-d327-40e4-bf32-c2e9f6965a86:
+        enabledByDefault: true
+        hasUrls: true
+        template: posts
+        uriFormat: 'indlaeg/{slug}'
+    type: channel
+  fe7489a3-6d5e-47a6-9692-49f5c6101c20:
+    enableVersioning: true
+    entryTypes:
+      13ba03ef-930d-4162-8109-eb1c0a2e9246:
+        fieldLayouts:
+          d0650b3c-d710-497e-b144-d2329977442f:
+            tabs:
+              -
+                fields:
+                  6c6259bb-d4e1-4863-9503-bb55917223ed:
+                    required: false
+                    sortOrder: 1
+                name: Content
+                sortOrder: 1
+        handle: kontaktside
+        hasTitleField: false
+        name: Kontaktside
+        sortOrder: 1
+        titleFormat: '{section.name|raw}'
+        titleLabel: ''
+    handle: kontaktside
+    name: Kontaktside
+    propagateEntries: true
+    siteSettings:
+      16e863b7-d327-40e4-bf32-c2e9f6965a86:
+        enabledByDefault: true
+        hasUrls: true
+        template: contact
+        uriFormat: /kontaktside
+    type: single
+siteGroups:
+  927d84e1-054c-4029-9418-6bcb17c367a2:
+    name: 'Craft test'
+sites:
+  16e863b7-d327-40e4-bf32-c2e9f6965a86:
+    baseUrl: $DEFAULT_SITE_URL
+    handle: default
+    hasUrls: true
+    language: da
+    name: 'Craft test'
+    primary: true
+    siteGroup: 927d84e1-054c-4029-9418-6bcb17c367a2
+    sortOrder: 1
+system:
+  edition: solo
+  live: true
+  name: 'Craft test'
+  schemaVersion: 3.1.25
+  timeZone: America/Los_Angeles
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: ''
+  photoVolumeUid: null
+  requireEmailVerification: true

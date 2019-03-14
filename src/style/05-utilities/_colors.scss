@@ -1,0 +1,11 @@
+// Color Classes
+@each $color_name, $color in $colors {
+	.bg-#{$color_name} {
+		background-color: $color;
+	}
+
+	.text-#{$color_name} {
+		color: $color;
+	}
+
+}
