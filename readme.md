@@ -1,7 +1,7 @@
 # CraftCMS Boilerplate - MAMA CPH
 
 A boilerplate for Craft CMS using webpack, babel and postcss.
-Uses scss-framework from [baseguide.de](https://baseguide.de)
+Uses scss-framework from [baseguide](https://basegui.de)
 
 ## Requirements
 Local server and database using MAMP/XAMP.
